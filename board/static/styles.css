@@ -21,11 +21,13 @@ a:hover {
 nav ul {
   list-style-type: none;
   padding: 0;
+  background-size: 150%;
+  background-color: #92a8d1;
 }
 
 nav ul li {
   display: inline;
-  margin: 0 5px;
+  margin: 0 25px;
 }
 
 main {

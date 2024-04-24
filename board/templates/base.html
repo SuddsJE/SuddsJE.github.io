@@ -5,9 +5,11 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 
 </head>
+<header>
+  {% include("_navigation.html") %}
+</header>
 <body>
 <h1>Message Board</h1>
-{% include("_navigation.html") %}
 <section>
   <header>
     {% block header %}{% endblock header %}
